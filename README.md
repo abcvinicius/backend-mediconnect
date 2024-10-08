@@ -1,5 +1,5 @@
 
-# Guia Completo do Projeto Mediconnect
+# backend-mediconnect
 
 ## 1. O que é o Mediconnect?
 Mediconnect é um sistema de agendamento e gerenciamento de consultas médicas. Ele permite que clientes agendem consultas, médicos registrem informações, e haja controle sobre as finanças e medicamentos prescritos. O projeto foi desenvolvido usando a arquitetura **MVC (Model-View-Controller)**, que organiza o código de uma forma que separa a lógica dos dados e da interface, tornando o código mais limpo e fácil de manter.
