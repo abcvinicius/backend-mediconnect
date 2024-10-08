@@ -44,34 +44,57 @@ O **Service** é a "inteligência" do sistema. Ele contém as **regras de negóc
    |       |-- [ EndPoints ]
    |       |       |-- ClienteController.java
    |       |       |-- MedicoController.java
+   |       |       |-- AgendamentoController.java
+   |       |       |-- ConsultaController.java
+   |       |       |-- FinanceiroController.java
    |       |
    |       |-- [ Request ]
    |       |       |-- ClienteRequest.java
    |       |       |-- MedicoRequest.java
+   |       |       |-- AgendamentoRequest.java
+   |       |       |-- ConsultaRequest.java
+   |       |       |-- FinanceiroRequest.java
    |       |
    |       |-- [ Response ]
    |               |-- ClienteResponse.java
    |               |-- MedicoResponse.java
+   |               |-- AgendamentoResponse.java
+   |               |-- ConsultaResponse.java
+   |               |-- FinanceiroResponse.java
    |
    |-- [ Model ]
    |       |-- Cliente.java
    |       |-- Medico.java
+   |       |-- Agendamento.java
+   |       |-- Consulta.java
+   |       |-- Financeiro.java
    |
    |-- [ Repository ]
    |       |-- ClienteRepository.java
    |       |-- MedicoRepository.java
+   |       |-- AgendamentoRepository.java
+   |       |-- ConsultaRepository.java
+   |       |-- FinanceiroRepository.java
    |
    |-- [ Service ]
    |       |-- ClienteService.java
    |       |-- MedicoService.java
+   |       |-- AgendamentoService.java
+   |       |-- ConsultaService.java
+   |       |-- FinanceiroService.java
    |
    |-- [ Security ]
    |       |-- JWTAuthenticationFilter.java
    |       |-- UsuarioService.java
    |
    |-- [ Utils ]
-           |-- ClienteBuilder.java
-           |-- MedicoBuilder.java
+   |       |-- ClienteBuilder.java
+   |       |-- MedicoBuilder.java
+   |       |-- AgendamentoBuilder.java
+   |       |-- ConsultaBuilder.java
+   |       |-- FinanceiroBuilder.java
+   |       
+   |-- [ ProjetoMedicoApplication.java ]
 ```
 
 ## 5. Explicando a Estrutura de Pastas
