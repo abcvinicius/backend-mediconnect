@@ -12,7 +12,7 @@ O **MVC** é um padrão de arquitetura que divide a aplicação em três partes 
 
 - **Controller (Controlador)**: É a parte que decide **o que fazer** com os dados. Ele recebe a requisição do usuário (por exemplo, "quero ver a lista de médicos"), pede ao **Model** para buscar os dados no banco de dados e então envia esses dados como resposta.
 
-## 3. Explicando cada parte como se todo mundo fosse MUITO burro:
+## 3. Explicando cada parte:
 
 ### 3.1. Model (Modelo)
 Imagine o **Model** como uma "receita de bolo". Ele define tudo que faz parte de uma entidade no sistema, como um **cliente** ou um **médico**. Por exemplo, pense no **Cliente** como um formulário que você deve preencher para criar um cadastro no sistema. Esse formulário pede informações como:
